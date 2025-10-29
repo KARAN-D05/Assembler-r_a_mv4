@@ -6,7 +6,7 @@
 
 # Progress
 - Mapped basic machine code instructions like Loading data on lines and then storing that data in a specific Register to mnemonics.
-- Implemented a Pyhton program that takes mnemonics like LOAD-X-XXXX and STORE and generate a machine code program.
+- Implemented an assembler in Python that takes mnemonics like LOAD-X-XXXX and STORE and generate a machine code program.
 
 # Computing Machinery from Scratch
 - To follow along it is advised to check out the underlying hardware upon which we are building the assembly language.
