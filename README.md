@@ -5,8 +5,7 @@
  mnemonics we get -**The Assembly Language**.
 
 # Progress
-- Mapped basic machine code instructions like Loading data on lines and then storing that data in a specific Register to mnemonics.
-- Implemented an assembler in Python that takes mnemonics like LOAD-X-XXXX and STORE and generate a machine code program.
+- [asmv0.1](asmvo/asmv0.1)
 
 # Computing Machinery from Scratch
 - To follow along it is advised to check out the underlying hardware upon which we are building the assembly language.
