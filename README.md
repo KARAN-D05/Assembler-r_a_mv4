@@ -3,3 +3,11 @@
 **Machine-Code Programming** by storing machine code instructions in the program memory.
 - So next logical step was to go up the computing stack from machine code to language having instructions in an english like language, called Mnemonics, so after mapping all the machine codes to
  mnemonics we get -**The Assembly Language**.
+
+# Progress
+- Mapped basic machine code instructions like Loading data on lines and then storing that data in a specific Register to mnemonics.
+- Implemented a Pyhton program that takes mnemonics like LOAD-X-XXXX and STORE and generate a machine code program.
+
+# Computing Machinery from Scratch
+- To follow along it is advised to check out the underlying hardware upon which we are building the assembly language.
+- [Check out Computing Machinery from scratch](https://github.com/KARAN-D05/Computing_Machinery_from_Scratch)
