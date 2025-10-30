@@ -13,12 +13,12 @@
    - XXXX (Data Bits)
      - XXXX Corresponds to value 1, 2, 4, 8 respectively.
        
-- Mnemmonic 2: FBK
-  - Feeds back the output into Register A, overriding its contents.
+- Mnemonic 2: FBK
+   - Feeds back the output into Register A, overriding its contents.
 
 - Mnemonic 3: ADD
- - It is the default arithmetic operation of the machine, hence no machine code required
- - For consistency in thinking through a program this mnemonic have been made, but it ouputs "DEFAULT ARITHMETIC OPERATION"
+   - It is the default arithmetic operation of the machine, hence no machine code required
+   - For consistency in thinking through a program this mnemonic have been made, but it ouputs "DEFAULT ARITHMETIC OPERATION"
 
 - Mnemonic 4: SUB
    - Subtracts the data in Register A from Register B.
@@ -46,3 +46,4 @@
 - Easier reasoning about logic and data-flow
 - Less manual error when encoding binary instructions
 - Acts as a bridge between human logic and hardware signal execution.
+
