@@ -1,4 +1,5 @@
-instruction1 = input("Enter Instruction1: ")
+# INPUTASSEMBLY LANGUAGE PROGRAM 
+instruction1 = input("Enter Instruction1: ") 
 instruction2 = input("Enter Instruction2: ")
 instruction3 = input("Enter Instruction3: ")
 instruction4 = input("Enter Instruction4: ")
@@ -7,41 +8,45 @@ instruction6 = input("Enter Insrruction6: ")
 instruction7 = input("Enter Instruction7: ")
 instruction8 = input("Enter Instruction8: ")
 
-ins1 = instruction1[0:4]
-ins2 = instruction1[5]
-ins3 = instruction1[7:11]
+# STRING DIVISION INTO SUBSTRINGS FOR CONTROL FLOW
+ins1 = instruction1[0:4] # LOAD
+ins2 = instruction1[5]   # SELECTOR
+ins3 = instruction1[7:11]# DATA
 
+# INSTRUCTION 1
 if ins1 == "LOAD":
     print("Machine Code Program:")
     print(f"00{ins2}{ins3[0]}00{ins3[1]}000{ins3[2]}{ins3[3]}0000")
     print(f"01{ins2}0000000000000")
 
+# INSTRUCTION 2
 if instruction2 != " ":
-    if len(instruction2) == 11:
+    if len(instruction2) == 11: # LOAD (11 CHARACTERS LONG)
         ins1 = instruction2[5]
         ins2 = instruction2[7:11]
         print(f"00{ins1}{ins2[0]}00{ins2[1]}000{ins2[2]}{ins2[3]}0000")
         print(f"01{ins1}0000000000000")
-    elif instruction2 == "FBK":
+    elif instruction2 == "FBK": # FEEDBACK
         print("1000000000000000")
-    elif instruction2 == "ADD":
+    elif instruction2 == "ADD": # ADDITION
         a = "DEFAULT ARITHMETIC OPERATION"
         print(a)
-    elif instruction2 == "SUB":
+    elif instruction2 == "SUB": # SUBTRACTION
         a = "0000100000000000"
         print(a)
-    elif instruction2 == "DIV":
+    elif instruction2 == "DIV": # DIVISION
         a = "0000000010000000"
         print(a)
-    elif instruction2 == "OVRD":
+    elif instruction2 == "OVRD": # OVERRIDE
         print("0000000001000000")
-    elif instruction2 == "RSTM":
+    elif instruction2 == "RSTM": # RESET MACHINE
         print("0000010000000000")
-    elif len(instruction2) == 8:
+    elif len(instruction2) == 8: # MULTIPLICATION (8 CHARACTERS LONG)
         ins3 = instruction2[4:8]
         a = f"000000010000{ins3}"
         print(a)
 
+# INSTRUCTION 3
 if instruction3 != " ":
     if len(instruction3) == 11:
         ins4 = instruction3[5]
@@ -67,11 +72,11 @@ if instruction3 != " ":
         ins6 = instruction3[4:8]
         b = f"000000010000{ins6}"
         print(b)
-    elif instruction3 == "HOLD-OP":
+    elif instruction3 == "HOLD-OP": # HOLD-OPERATION
         X = int(input("ENTER CLOCK CYCLES FOR HOLD OPERATION:"))
         for x in range (X-1):
             print(a)
-
+# INSTRUCTION 4
 if instruction4 != " ":
     if len(instruction4) == 11:
         ins7 = instruction4[5]
@@ -102,7 +107,7 @@ if instruction4 != " ":
         for x in range (Y-1):
             print(b)
 
-
+# INSTRUCTION 5
 if instruction5 != " ":
     if len(instruction5) == 11:
         ins10 = instruction5[5]
@@ -132,7 +137,8 @@ if instruction5 != " ":
         Z = int(input("ENTER CLOCK CYCLES FOR HOLD OPERATION:"))
         for x in range (Z-1):
             print(c)
-
+            
+# INSTRUCTION 6
 if instruction6 != " ":
     if len(instruction6) == 11:
         ins13 = instruction6[5]
@@ -163,6 +169,7 @@ if instruction6 != " ":
         for x in range(K-1):
             print(d)
 
+# INSTRUCTION 7
 if instruction7 != " ":
     if len(instruction7) == 11:
         ins16 = instruction7[5]
@@ -193,6 +200,7 @@ if instruction7 != " ":
         for x in range(S-1):
             print(e)
 
+# INSTRUCTION 8
 if instruction8 != " ":
     if len(instruction8) == 11:
         ins19 = instruction8[5]
@@ -221,4 +229,5 @@ if instruction8 != " ":
     elif instruction8 == "HOLD-OP":
         D = int(input("ENTER CLOCK CYCLES FOR HOLD OPERATION:"))
         for x in range(D-1):
+
             print(f)            
