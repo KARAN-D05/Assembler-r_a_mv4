@@ -5,12 +5,12 @@
  mnemonics we get -**The Assembly Language**.
 
 # Progress
-- [asmv0.1](asm-v0/asm-v0.1)
-- [asmv0.2](asm-v0/asm-v0.2)
+- [asmv0.1](asm-v0/asm-v0.1) -> Mapped Data control operations to assembly Language.
+- [asmv0.2](asm-v0/asm-v0.2) -> Mapped arithmetic, system Control and temporal Control to assembly Language. Now capable of describing the fundamental computational behaviour of the hardware.
 
 # Next Development
-- asmv0.3 -> Mapping more complex functionlity of the machine into a single mnemonic,
-
+- asmv0.3 -> Implementing composite instructions, Mapping multiple sequences of low-level instructions into a single mnemonic, enabling higher-level abstractions and more complex machine functionality with fewer  lines of code.
+  
 # Computing Machinery from Scratch
 - To follow along it is advised to check out the underlying hardware upon which we are building the assembly language.
 - [Check out Computing Machinery from scratch](https://github.com/KARAN-D05/Computing_Machinery_from_Scratch)
