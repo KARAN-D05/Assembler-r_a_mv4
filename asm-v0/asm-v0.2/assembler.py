@@ -1,4 +1,4 @@
-# INPUTASSEMBLY LANGUAGE PROGRAM 
+# INPUT ASSEMBLY LANGUAGE PROGRAM 
 instruction1 = input("Enter Instruction1: ") 
 instruction2 = input("Enter Instruction2: ")
 instruction3 = input("Enter Instruction3: ")
@@ -231,3 +231,4 @@ if instruction8 != " ":
         for x in range(D-1):
 
             print(f)            
+
