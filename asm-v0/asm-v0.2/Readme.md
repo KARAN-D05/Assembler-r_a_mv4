@@ -1,8 +1,8 @@
 ## Version 0.2 
 - Mapped all machine code instructions to their Assembly language mnemonics
 - Added functionality to hold arithmetic operations for a specified number of clock cycles.
-- Enabked execution of all arithmetic operations supported by hardware.
-- Assembly programs can now fully control machine behaviour using symbolic instructions
+- Enabled execution of all arithmetic operations supported by hardware.
+- Assembly programs can now fully control machine behaviour using symbolic instructions.
 
 **Machine Code -> Mnemonic Mapping**
 - Mnemonic 1: LOAD-S-XXXX
@@ -35,7 +35,7 @@
 - Mnemonic 8: RSTM
    - Resets the entire machine, and takes all the registers and lines to 0 state.
 
--**Mnemonic 9: HOLD-OP**
+- Mnemonic 9: HOLD-OP
    - Keeps the result of an arithmetic operation on the output lines for a given number of clock cycles.
    - It is crucial for synchronizing hardware behaviour
    - As already stated the default operation of our machine is Addition so after the machine code instruction for SUB, DIV or MUL is executed the result at the output is ADD not of the desired operation.
@@ -46,3 +46,4 @@
 - Easier reasoning about logic and data-flow
 - Less manual error when encoding binary instructions
 - Acts as a bridge between human logic and hardware signal execution.
+
