@@ -6,6 +6,7 @@
 
 # Progress
 - [asmv0.1](asm-v0/asm-v0.1)
+- [asmv0.2](asm-v0/asm-v0.2)
 
 # Computing Machinery from Scratch
 - To follow along it is advised to check out the underlying hardware upon which we are building the assembly language.
