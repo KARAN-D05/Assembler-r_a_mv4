@@ -4,13 +4,12 @@
 - So next logical step was to go up the computing stack from machine code to language having instructions in an english like language, called Mnemonics, so after mapping all the machine codes to
  mnemonics we get -**The Assembly Language**.
 
-# Progress
+# Versions Built
 - [asmv0.1](asm-v0/asm-v0.1) -> Mapped Data control operations to assembly Language.
-
 - [asmv0.2](asm-v0/asm-v0.2) -> Mapped arithmetic, system and temporal Control to assembly Language.
 
-# Next Development
-- asmv0.3 -> Mapping multiple sequences of low-level instructions into a single mnemonic, enabling more complex machine functionality with fewer  lines of assembly code.
+# Versions in Development 
+- asmv0.3 -> Mapping multiple sequences of low-level instructions to a single mnemonic for complex functionality.
   
 # Computing Machinery from Scratch
 - To follow along it is advised to check out the underlying hardware upon which we are building the assembly language.
