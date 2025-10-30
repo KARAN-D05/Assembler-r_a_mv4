@@ -6,7 +6,7 @@ instruction2 = input("Enter Instruction2: ")
 instruction3 = input("Enter Instruction3: ")
 instruction4 = input("Enter Instruction4: ")
 instruction5 = input("Enter Instruction5: ")
-instruction6 = input("Enter Insrruction6: ")
+instruction6 = input("Enter Instruction6: ")
 instruction7 = input("Enter Instruction7: ")
 instruction8 = input("Enter Instruction8: ")
 
@@ -235,3 +235,4 @@ if instruction8 != " ":
             print(f)    
             
 # EXTENDABLE TO AS MANY INSTRUCTIONS ONE WANTS TO HAVE FOR PROGRAMMING THE MACHINE
+
