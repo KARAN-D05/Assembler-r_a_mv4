@@ -40,10 +40,12 @@
    - It is crucial for synchronizing hardware behaviour
    - As already stated the default operation of our machine is Addition so after the machine code instruction for SUB, DIV or MUL is executed the result at the output is ADD not of the desired operation.
    - Hence there is a need for holding the result before the default operation takes over, so we use HOLD-OP, it asks for number of clock cycles for which output has to be on hold, and generate the machine code accordingly.
+   - For correct operation especially in cases of DIV and MUL the HOLD-OP should be sustained for atleast the value of multiplier and the value of quotient.
 
 ## Summary
 - This version mapped the entire machine functionality from machine code instructions to Assembly languauge instructions.
 - Easier reasoning about logic and data-flow
 - Less manual error when encoding binary instructions
 - Acts as a bridge between human logic and hardware signal execution.
+
 
