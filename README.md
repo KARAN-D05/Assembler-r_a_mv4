@@ -10,7 +10,7 @@
 
 # Next Development
 - asmv0.3 -> Implementing composite instructions:
-  Mapping multiple sequences of low-level instructions into a single mnemonic, enabling higher-level abstractions and more complex machine functionality with fewer  lines of assembly code.
+  - Mapping multiple sequences of low-level instructions into a single mnemonic, enabling higher-level abstractions and more complex machine functionality with fewer  lines of assembly code.
   
 # Computing Machinery from Scratch
 - To follow along it is advised to check out the underlying hardware upon which we are building the assembly language.
