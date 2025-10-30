@@ -1,3 +1,5 @@
+                                                          # ASSEMBLER V0.2 SOURCE CODE #
+
 # INPUT ASSEMBLY LANGUAGE PROGRAM 
 instruction1 = input("Enter Instruction1: ") 
 instruction2 = input("Enter Instruction2: ")
@@ -230,5 +232,6 @@ if instruction8 != " ":
         D = int(input("ENTER CLOCK CYCLES FOR HOLD OPERATION:"))
         for x in range(D-1):
 
-            print(f)            
-
+            print(f)    
+            
+# EXTENDABLE TO AS MANY INSTRUCTIONS ONE WANTS TO HAVE FOR PROGRAMMING THE MACHINE
