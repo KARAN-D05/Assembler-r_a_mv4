@@ -5,9 +5,9 @@
  mnemonics we get -**The Assembly Language**.
 
 <p align="center">
-  <img src="asm-v0/asm-v0.2/images/machine-code-output.png" alt="Assembler Machine Code Output" width="700"/> 
+  <img src="asm-v0/asm-v0.2/images/machine-code-output.png" alt="Machine Code Output v0.2" width="700"/>
   <br>
-  <sub><b>🧾 Machine Code Output — v0.2</b></sub>
+  <sub><b>🧾 Machine Code Output — Assembler v0.2</b></sub>
 </p>
 
 # 🧱 Versions Built
