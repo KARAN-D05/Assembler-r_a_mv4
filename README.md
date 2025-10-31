@@ -4,6 +4,12 @@
 - So next logical step was to go up the computing stack from machine code to language having instructions in an english like language, called Mnemonics, so after mapping all the machine codes to
  mnemonics we get -**The Assembly Language**.
 
+<p align="center">
+  <img src="asm-v0/asm-v0.2/images/machine-code-output.png" alt="Assembler Machine Code Output" width="700"/>
+  <br>
+  <sub><b>🧾 Machine Code Output — v0.2</b></sub>
+</p>
+
 # 🧱 Versions Built
 - [asmv0.1](asm-v0/asm-v0.1) -> Mapped Data control operations to assembly Language.
 - [asmv0.2](asm-v0/asm-v0.2) -> Mapped arithmetic, system and temporal Control to assembly Language.
