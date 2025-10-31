@@ -8,9 +8,9 @@
 - [asmv0.1](asm-v0/asm-v0.1) -> Mapped Data control operations to assembly Language.
 - [asmv0.2](asm-v0/asm-v0.2) -> Mapped arithmetic, system and temporal Control to assembly Language.
 
-# Versions in Development 
-- asmv0.3
-   - Mapping multiple sequences of low-level instructions into a single mnemonic, enabling higher-level abstractions and more complex machine functionality with fewer lines of assembly code.
+# Future Development 
+- Syntax and Semantic Analysis for the assembly language program.
+- Mapping multiple sequences of low-level instructions into a single mnemonic, enabling higher-level abstractions and more complex machine functionality with fewer lines of assembly code.
   
 # Computing Machinery from Scratch
 - To follow along it is advised to check out the underlying hardware upon which we are building the assembly language.
