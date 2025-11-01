@@ -12,7 +12,7 @@
   <img src="images/machine-code-output.png" 
        alt="asmv0.2 Machine Code Output" width="600"/>
   <br>
-  <sub><b>💾 asmv0.2 — Machine Code Output and Mnemonic Mapping</b></sub>
+  <sub><b>💾 asmv0.2 - Machine Code Output and Mnemonic Mapping</b></sub>
 </p>
 
 **🔡 Machine Code -> Mnemonic Mapping**
@@ -58,6 +58,7 @@
 - 🧠Easier reasoning about logic and data-flow
 - ⚡Less manual error when encoding binary instructions
 - 🤝Acts as a bridge between human logic and hardware signal execution.
+
 
 
 
