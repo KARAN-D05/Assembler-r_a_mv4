@@ -366,6 +366,4 @@ print(f"Instruction5: {R5}")
 print(f"Instruction6: {R6}")
 print(f"Instruction7: {R7}")    
 print(f"Instruction8: {R8}")
-
 print()
-
