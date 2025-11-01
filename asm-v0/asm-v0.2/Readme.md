@@ -8,6 +8,13 @@
 - 🎛️ Full Control
   - Assembly programs can now fully control machine behavior using mnemonic-based instructions.
 
+<p align="center">
+  <img src="images/machine-code-output.png" 
+       alt="asmv0.2 Machine Code Output" width="600"/>
+  <br>
+  <sub><b>💾 asmv0.2 — Machine Code Output and Mnemonic Mapping</b></sub>
+</p>R
+
 **🔡 Machine Code -> Mnemonic Mapping**
 - 🧠Mnemonic 1: LOAD-S-XXXX
    - As opposed to LOAD mnemonic of v0.1, this LOAD handles data loading onto lines as well as Storing the data, so no need for seperate STORE instruction.
@@ -46,18 +53,12 @@
    - Hence there is a need for holding the result before the default operation takes over, so we use HOLD-OP, it asks for number of clock cycles for which output has to be on hold, and generate the machine code accordingly.
    - For correct operation especially in cases of MUL and DIV the HOLD-OP should be sustained for atleast the value of (multiplier+1) clock cycles and the value of quotient clock cycles.
 
-<p align="center">
-  <img src="images/machine-code-output.png" 
-       alt="asmv0.2 Machine Code Output" width="600"/>
-  <br>
-  <sub><b>💾 asmv0.2 — Machine Code Output and Mnemonic Mapping</b></sub>
-</p>
-
 ## 🧾Summary
 - ✅This version mapped the entire machine functionality from machine code instructions to Assembly languauge instructions.
 - 🧠Easier reasoning about logic and data-flow
 - ⚡Less manual error when encoding binary instructions
 - 🤝Acts as a bridge between human logic and hardware signal execution.
+
 
 
 
