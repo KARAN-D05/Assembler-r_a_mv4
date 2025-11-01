@@ -9,7 +9,7 @@
   <img src="images/machine-code output.png" 
        alt="asmv0.1 Machine Code Output" width="600"/>
   <br>
-  <sub><b>💾 asmv0.1 — Machine Code Output and LOAD/STORE Mapping</b></sub>
+  <sub><b>💾 asmv0.1 - Machine Code Output and LOAD/STORE Mapping</b></sub>
 </p>
 
 **🔡Machine Code -> mnemonic Mapping**
@@ -28,18 +28,19 @@
   <img src="images/program-execution-r_a_mv3.png" 
        alt="Program Execution RAM v3" width="800"/>
   <br>
-  <sub><b>⚙️ Program Execution — r_a_m v3</b></sub>
+  <sub><b>⚙️ Program Execution - r_a_m v3</b></sub>
 </p>
 
 <p align="center">
   <img src="images/program-execution-r_a_mv4.png" 
        alt="Program Execution RAM v4" width="800"/>
   <br>
-  <sub><b>🚀 Program Execution — r_a_m v4</b></sub>
+  <sub><b>🚀 Program Execution - r_a_m v4</b></sub>
 </p>
 
 ## 🧠Summary:
 - This version establishes the foundation for symbolic instruction mapping, converting human-readable mnemonics into hardware-level signals.
+
 
 
 
