@@ -1,4 +1,4 @@
-                                                # ASSEMBLER V0.1 SOURCE CODE #
+                                                                                    # ASSEMBLER V0.1 SOURCE CODE #
 # INPUT ASSEMBLY LANGUAGE PROGRAM
 instruction1 = input("Enter Instruction1: ")
 instruction2 = input("Enter Instruction2: ")
@@ -19,3 +19,4 @@ if instruction2 == "STORE":
     print(f"01{ins2}0000000000000")
 
 # Only Supports LOAD and STORE instructions
+
