@@ -45,8 +45,8 @@
 
 5. 🧾 Instruction Execution Report
    
- <p align="center">
-  <img src="asm-v0/asm-v0.3/images/asmv0.3_output.png" 
+<p align="center">
+  <img src="images/asmv0.3_output.png" 
        alt="asmv0.3 Assembler Output" width="800"/>
   <br>
   <sub><b>💾 asmv0.3 - Assembler Output with Instruction Execution Report</b></sub>
@@ -54,6 +54,7 @@
 
 ## 🚀 Significance
 - This version lays the groundwork for transitioning from a translator to a true assembler — introducing language structure, logic, and feedback. It also represents a self-taught implementation of key compiler design concepts that will be formalized in later versions.
+
 
 
 
