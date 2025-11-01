@@ -13,9 +13,24 @@
 # 🧱 Versions Built
 - [asmv0.1](asm-v0/asm-v0.1) -> Mapped Data control operations to assembly Language.
 - [asmv0.2](asm-v0/asm-v0.2) -> Mapped arithmetic, system and temporal Control to assembly Language.
+- [asmv0.3](asm-v0/asm-v0.3) -> Incorporated Syntax Analysis, primitive semantic analysis and an instruction execution report into the assembler
+
+<p align="center">
+  <img src="asm-v0/asm-v0.3/images/syntax_analysis1.png" 
+       alt="asmv0.3 Syntax Analysis" width="800"/>
+  <br>
+  <sub><b>🔍 Syntax Analysis — Assembler v0.3</b></sub>
+</p>
+
+<p align="center">
+  <img src="asm-v0/asm-v0.3/images/semantic_analysis.png" 
+       alt="asmv0.3 Semantic Analysis" width="800"/>
+  <br>
+  <sub><b>🕵️ Semantic Analysis — Assembler v0.3</b></sub>
+</p>
 
 # 🚀 Future Development 
-- Syntax and Semantic Analysis for the assembly language, enabling validation and structured interpretation of programs before translation to machine code.
+- Advanced Semantic Analysis for the assembly language, enabling validation and structured interpretation of programs before translation to machine code.
 - Mapping multiple sequences of low-level instructions into a single mnemonic, enabling higher-level abstractions and more complex machine functionality with fewer lines of assembly code.
   
 # 🧰 Computing Machinery from Scratch
