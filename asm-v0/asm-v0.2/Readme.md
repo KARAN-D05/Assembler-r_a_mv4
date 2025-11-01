@@ -13,7 +13,7 @@
        alt="asmv0.2 Machine Code Output" width="600"/>
   <br>
   <sub><b>💾 asmv0.2 — Machine Code Output and Mnemonic Mapping</b></sub>
-</p>R
+</p>
 
 **🔡 Machine Code -> Mnemonic Mapping**
 - 🧠Mnemonic 1: LOAD-S-XXXX
@@ -58,6 +58,7 @@
 - 🧠Easier reasoning about logic and data-flow
 - ⚡Less manual error when encoding binary instructions
 - 🤝Acts as a bridge between human logic and hardware signal execution.
+
 
 
 
