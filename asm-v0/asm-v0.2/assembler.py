@@ -1,4 +1,4 @@
-                                                          # ASSEMBLER V0.2 SOURCE CODE #
+                                                                                 # ASSEMBLER V0.2 SOURCE CODE #
 
 # INPUT ASSEMBLY LANGUAGE PROGRAM 
 instruction1 = input("Enter Instruction1: ") 
@@ -235,4 +235,5 @@ if instruction8 != " ":
             print(f)    
             
 # EXTENDABLE TO AS MANY INSTRUCTIONS ONE WANTS TO HAVE FOR PROGRAMMING THE MACHINE
+
 
