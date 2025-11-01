@@ -36,12 +36,12 @@
 
 4. 🔸Detects No Input
    
-   <p align="center">
-       <img src="asm-v0/asm-v0.3/images/asmv0.3_no_input.png" 
+  <p align="center">
+  <img src="asm-v0/asm-v0.3/images/asmv0.3_no_input.png" 
        alt="asmv0.3 No Input Screen" width="800"/>
-       <br>
-       <sub><b>🖥️ asmv0.3 - No Input Screen</b></sub>
-  </p>
+  <br>
+  <sub><b>🖥️ asmv0.3 — No Input Screen</b></sub>
+</p>
 
 5. 🧾 Instruction Execution Report
    
@@ -54,5 +54,6 @@
 
 ## 🚀 Significance
 - This version lays the groundwork for transitioning from a translator to a true assembler — introducing language structure, logic, and feedback. It also represents a self-taught implementation of key compiler design concepts that will be formalized in later versions.
+
 
 
