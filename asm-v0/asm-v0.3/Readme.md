@@ -13,7 +13,7 @@
 
 <p align="center">
   <img src="images/syntax_analysis1.png" 
-       alt="asmv0.3 Syntax Analysis 1" width="800"/>
+       alt="asmv0.3 Syntax Analysis 1" width="600"/>
   <br>
   <sub><b>🔍 Syntax Analysis - v0.3</b></sub>
 </p>
@@ -25,7 +25,7 @@
     
    <p align="center">
   <img src="images/semantic_analysis.png" 
-       alt="asmv0.3 Semantic Analysis" width="800"/>
+       alt="asmv0.3 Semantic Analysis" width="600"/>
   <br>
   <sub><b>🕵️ Semantic Analysis - v0.3</b></sub>
 </p>
@@ -36,7 +36,7 @@
 
 <p align="center">
   <img src="images/syntax_analysis3.png" 
-       alt="asmv0.3 Syntax Analysis 3" width="800"/>
+       alt="asmv0.3 Syntax Analysis 3" width="600"/>
   <br>
   <sub><b>🔍 Syntax Analysis</b></sub>
 </p>
@@ -45,7 +45,7 @@
    
   <p align="center">
   <img src="images/asmv0.3_no_input.png" 
-       alt="asmv0.3 No Input Screen" width="800"/>
+       alt="asmv0.3 No Input Screen" width="600"/>
   <br>
   <sub><b>🖥️ asmv0.3 - No Input Screen</b></sub>
 </p>
@@ -54,13 +54,14 @@
    
 <p align="center">
   <img src="images/asmv0.3_output.png" 
-       alt="asmv0.3 Assembler Output" width="800"/>
+       alt="asmv0.3 Assembler Output" width="600"/>
   <br>
   <sub><b>💾 asmv0.3 - Assembler Output with Instruction Execution Report</b></sub>
 </p>
 
 ## 🚀 Significance
 - This version lays the groundwork for transitioning from a translator to a true assembler — introducing language structure, logic, and feedback. It also represents a self-taught implementation of key compiler design concepts that will be formalized in later versions.
+
 
 
 
