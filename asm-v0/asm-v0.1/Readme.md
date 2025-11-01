@@ -12,20 +12,6 @@
   <sub><b>💾 asmv0.1 — Machine Code Output and LOAD/STORE Mapping</b></sub>
 </p>
 
-<p align="center">
-  <img src="images/program-execution-r_a_mv3.png" 
-       alt="Program Execution RAM v3" width="600"/>
-  <br>
-  <sub><b>⚙️ Program Execution — r_a_m v3</b></sub>
-</p>
-
-<p align="center">
-  <img src="images/program-execution-r_a_mv4.png" 
-       alt="Program Execution RAM v4" width="600"/>
-  <br>
-  <sub><b>🚀 Program Execution — r_a_m v4</b></sub>
-</p>
-
 **🔡Machine Code -> mnemonic Mapping**
 - Mnemonic 1: LOAD-S-XXXX
    - This mnemonic has the functionality of loading data onto the data lines.
@@ -38,7 +24,22 @@
   - There is no need to specify the selector in this as our program figures out the value of selector from the mnemonic one, by storing the selector string in another variable and then our program add that value in required location in corresponding machine code intruction.
   - The value entered during LOAD instruction is inserted into correct bit location and retained.
 
+<p align="center">
+  <img src="images/program-execution-r_a_mv3.png" 
+       alt="Program Execution RAM v3" width="800"/>
+  <br>
+  <sub><b>⚙️ Program Execution — r_a_m v3</b></sub>
+</p>
+
+<p align="center">
+  <img src="images/program-execution-r_a_mv4.png" 
+       alt="Program Execution RAM v4" width="800"/>
+  <br>
+  <sub><b>🚀 Program Execution — r_a_m v4</b></sub>
+</p>
+
 ## 🧠Summary:
 - This version establishes the foundation for symbolic instruction mapping, converting human-readable mnemonics into hardware-level signals.
+
 
 
