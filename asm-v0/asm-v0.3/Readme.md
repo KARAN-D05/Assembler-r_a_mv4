@@ -11,13 +11,13 @@
       - Non-binary selector or data bits.
       - Incorrect instruction length for MUL or other variable-length mnemonics.
 
-      <p align="center">
+<p align="center">
   <img src="images/syntax_analysis1.png" 
        alt="asmv0.3 Syntax Analysis 1" width="800"/>
   <br>
   <sub><b>🔍 Syntax Analysis - v0.3</b></sub>
-  </p>
-
+</p>
+   
 2. 🧮 Primitive Semantic Analysis
   - Checks for logical execution order (e.g., preventing arithmetic operations before any data load).
   - Detects invalid machine states (e.g., system reset or override at incorrect times).
@@ -47,7 +47,7 @@
   <img src="images/asmv0.3_no_input.png" 
        alt="asmv0.3 No Input Screen" width="800"/>
   <br>
-  <sub><b>🖥️ asmv0.3 — No Input Screen</b></sub>
+  <sub><b>🖥️ asmv0.3 - No Input Screen</b></sub>
 </p>
 
 5. 🧾 Instruction Execution Report
@@ -61,6 +61,7 @@
 
 ## 🚀 Significance
 - This version lays the groundwork for transitioning from a translator to a true assembler — introducing language structure, logic, and feedback. It also represents a self-taught implementation of key compiler design concepts that will be formalized in later versions.
+
 
 
 
