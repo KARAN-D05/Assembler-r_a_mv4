@@ -1,4 +1,4 @@
-                                                                    # ASSEMBLER V0.3 SOURCE CODE # 
+                                                                                  # ASSEMBLER V0.3 SOURCE CODE # 
 # INPUT ASSEMBLY LANGAUGE PROGRAM
 instruction1 = input("Enter Instruction1: ")
 instruction2 = input("Enter Instruction2: ")
@@ -368,3 +368,4 @@ print(f"Instruction7: {R7}")
 print(f"Instruction8: {R8}")
 
 print()
+
